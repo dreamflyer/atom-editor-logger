@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": false,
+    "noImplicitAny": false,
+    "removeComments": false,
+    "sourceMap": true
+  },
+  "exclude": [
+    "atom-package",
+    "dist",
+    "docs.raml.org",
+    "documentation",
+    "images",
+    "menus",
+    "node_modules",
+    "settings",
+    "styles",
+    "tools",
+    "typings/browser",
+    "typings/**",
+    "custom_typings",
+    "typings"
+  ]
+}

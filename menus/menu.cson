@@ -1,0 +1,20 @@
+'menu': [
+  {
+    label: 'Packages',
+    'submenu': [
+      {
+        'label': 'Editor Logger',
+        'submenu': [
+          {
+            'label': 'Start logging',
+            'command': 'atom-editor-logger:start-logging'
+          },
+          {
+            'label': 'Stop logging',
+            'command': 'atom-editor-logger:stop-logging'
+          }
+        ]
+      }
+    ]
+  }
+]
