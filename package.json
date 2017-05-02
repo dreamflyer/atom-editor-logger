@@ -1,6 +1,6 @@
 {
   "name": "atom-editor-logger",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Simple tool for Atom editors input logging.",
   "main": "./src/atom/main",
   "activationCommands": {},
