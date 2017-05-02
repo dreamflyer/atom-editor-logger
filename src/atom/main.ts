@@ -10,7 +10,8 @@ module package_entry_point {
         require('atom-package-deps').install('atom-editor-logger', true).then(() => {
             subscriptions.add(atom.commands.add('atom-workspace', {
                 'atom-editor-logger:start-logging': () => logger.enable(),
-                'atom-editor-logger:stop-logging': () => logger.disable()
+                'atom-editor-logger:stop-logging': () => logger.disable(),
+                'atom-editor-logger:play-sequence': () => logger.play()
             }));
         });
 

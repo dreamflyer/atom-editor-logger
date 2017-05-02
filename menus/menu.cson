@@ -12,6 +12,10 @@
           {
             'label': 'Stop logging',
             'command': 'atom-editor-logger:stop-logging'
+          },
+          {
+            'label': 'Play sequence',
+            'command': 'atom-editor-logger:play-sequence'
           }
         ]
       }
